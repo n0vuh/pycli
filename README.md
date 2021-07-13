@@ -41,7 +41,6 @@ theme.print("Hello World!", False)
 ```
 
 ### Input
-<p>PyCli allows you to have an "expected" output, i.e int or float.</p>
 ```
 ...
 # input expecting a integer
