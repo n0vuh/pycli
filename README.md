@@ -39,7 +39,7 @@ theme.print("Hello World!", True, "[custom tag] ")
 # print without tag
 theme.print("Hello World!", False)
 ```
-[Imgur](https://imgur.com/VNT38Zn)
+![Imgur](https://imgur.com/VNT38Zn)
 
 ### Input
 ```py
@@ -53,7 +53,7 @@ theme.input("prompt", float)
 # input expecting a string
 theme.input("prompt", string)
 ```
-[Imgur](https://imgur.com/PoSSG3E)
+![Imgur](https://imgur.com/PoSSG3E)
 
 ### Misc
 ```py
@@ -70,6 +70,6 @@ theme.clear()
 # bench
 theme._bench()
 ```
-[Imgur](https://imgur.com/JJSH31t)
-[Imgur](https://imgur.com/evDrBEY)
-[Imgur](https://imgur.com/Rbfe2K6)
+![Imgur](https://imgur.com/JJSH31t)
+![Imgur](https://imgur.com/evDrBEY)
+![Imgur](https://imgur.com/Rbfe2K6)
