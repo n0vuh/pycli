@@ -1,4 +1,5 @@
-## PyCli
+# PyCli
+![last](https://img.shields.io/github/last-commit/n0vuh/pycli) ![release](https://img.shields.io/github/v/release/n0vuh/pycli) ![stars](https://img.shields.io/github/stars/n0vuh/pycli)\
 A simple module to assist in creating lightweight, clean CLIs/TUIs that is built on-top of Colorama.
 
 ## Get Started
@@ -39,7 +40,7 @@ theme.print("Hello World!", True, "[custom tag] ")
 # print without tag
 theme.print("Hello World!", False)
 ```
-![Imgur](https://imgur.com/VNT38Zn)
+![Imgur](https://i.imgur.com/VNT38Zn.png)
 
 ### Input
 ```py
@@ -53,7 +54,7 @@ theme.input("prompt", float)
 # input expecting a string
 theme.input("prompt", string)
 ```
-![Imgur](https://imgur.com/PoSSG3E)
+![Imgur](https://i.imgur.com/PoSSG3E.png)
 
 ### Misc
 ```py
@@ -70,6 +71,6 @@ theme.clear()
 # bench
 theme._bench()
 ```
-![Imgur](https://imgur.com/JJSH31t)
-![Imgur](https://imgur.com/evDrBEY)
-![Imgur](https://imgur.com/Rbfe2K6)
+![Imgur](https://i.imgur.com/JJSH31t.png)\
+![Imgur](https://i.imgur.com/evDrBEY.png)\
+![Imgur](https://i.imgur.com/Rbfe2K6.png)
