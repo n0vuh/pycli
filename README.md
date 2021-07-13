@@ -4,13 +4,13 @@ A simple module to assist in creating lightweight, clean CLIs/TUIs that is built
 
 ## Get Started
 ### Install required dependencies.
-<p>PyCli is programmed to use Colorama for the coloring of text in the console. This means you need to have colorama installed.
-Installing Colorama via pip:
+PyCli is programmed to use Colorama for the coloring of text in the console. This means you need to have colorama installed.\
+
+Installing Colorama via pip:\
 `pip install colorama` or `python -m pip install colorama`
 
 You're also going to need to add PyCli to your project directory or install it via pip.
 <b>Note: PyCli is not on PyPi yet.</b>
-</p>
 
 ### Initialize PyCli
 
