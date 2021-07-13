@@ -13,7 +13,7 @@ You're also going to need to add PyCli to your project directory or install it v
 
 ### Initialize PyCli
 
-```
+```py
 # windows
 import os
 from pycli.theme import cli
@@ -25,7 +25,7 @@ theme = cli(Fore.MAGENTA, Fore.LIGHTMAGENTA_EX, Fore.LIGHTMAGENTA_EX)
 ```
 
 ### Print
-```
+```py
 ...
 # print with default CMD tag
 theme.print("Hello World!", True)
@@ -39,9 +39,10 @@ theme.print("Hello World!", True, "[custom tag] ")
 # print without tag
 theme.print("Hello World!", False)
 ```
+[Imgur](https://imgur.com/VNT38Zn)
 
 ### Input
-```
+```py
 ...
 # input expecting a integer
 theme.input("prompt", int)
@@ -52,9 +53,10 @@ theme.input("prompt", float)
 # input expecting a string
 theme.input("prompt", string)
 ```
+[Imgur](https://imgur.com/PoSSG3E)
 
 ### Misc
-```
+```py
 ...
 # set console window
 theme.set_window_title("title here, also supports special chars! }/^*#()")
@@ -68,3 +70,6 @@ theme.clear()
 # bench
 theme._bench()
 ```
+[Imgur](https://imgur.com/JJSH31t)
+[Imgur](https://imgur.com/evDrBEY)
+[Imgur](https://imgur.com/Rbfe2K6)
